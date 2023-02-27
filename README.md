@@ -2,7 +2,7 @@
 
 ## Team6 입니다!
 
-!https://pbs.twimg.com/media/FCMGHCHUcAA8isa.jpg:large
+<img src ="https://pbs.twimg.com/media/FCMGHCHUcAA8isa.jpg:large">
 
 이여진 https://github.com/helloyeojin/java</br>
 장은정 https://github.com/eejeong/java.git</br>
