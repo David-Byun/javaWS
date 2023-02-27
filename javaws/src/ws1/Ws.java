@@ -10,15 +10,36 @@ public class Ws {
 			System.out.println("Input Command[q, i, d, s]");
 			String cmd = sc.next();
 			if(cmd.equals("q")) {
-				System.out.println("Quit...");
+				System.out.println("Quit..");
 				break;
 			} else if(cmd.equals("a1")) {
+				// 5~9까지의 숫자를 입력받는다.
+				// 입력받은 숫자만큼 배열을 생성하고
+				// 1~9까지의 랜덤한 숫자를 배열에 넣는다.
+				// 배열 정보를 출력한다.
+				// 배열의 합과 평균을 출력한다.
 				
 			} else if(cmd.equals("a2")) {
+				// 5~9까지의 숫자를 입력받는다.
+				// 입력받은 숫자만큼 배열을 생성하고
+				// 1~9까지의 랜덤한 숫자를 배열에 넣는다.
+				// 배열 정보를 출력한다.
+				// 짝수번째 숫자들의 합과 평균을 출력한다.
 				
 			} else if(cmd.equals("a3")) {
+				// 5~9까지의 숫자를 입력받는다.
+				// 입력받은 숫자만큼 배열을 생성하고
+				// 1~9까지의 랜덤한 숫자를 배열에 넣는다.
+				// 배열 정보를 출력한다.
+				// 배열의 합과 평균을 출력한다.
+				// 짝수 값만의 합과 평균을 출력한다.
 				
 			} else if(cmd.equals("a4")) {
+				// 5~9까지의 수를 2개 입력받는다.
+				// 2차원 배열을 만든다.
+				// 1~9까지의 랜덤한 숫자를 배열에 넣는다.
+				// 배열 정보를 출력한다.
+				// 배열의 합과 평균을 출력한다.
 				
 			} else {
 				System.out.println("Invalid Command...");
