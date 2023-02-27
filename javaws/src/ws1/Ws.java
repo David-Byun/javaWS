@@ -42,7 +42,6 @@ public class Ws {
 
 				// 짝수번째 숫자들의 합과 평균을 출력한다.
 				int sum = 0;
-				double avg = 0.0;
 				int cnt = 0;
 				for (int i = 0; i < arr.length; i++) {
 					if (i % 2 != 0) {
