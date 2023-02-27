@@ -56,10 +56,10 @@ public class Ws {
 			} else if(cmd.equals("a3")) {
 				
 				// 5~9까지의 숫자를 입력받는다.
-				System.out.println("5~9 사이의 숫자를 하나 입력해주세요.");
+				System.out.println("5~9 사이의 숫자를 하나 입력해주세요");
 				int n3 = Integer.parseInt(sc.next());
 				if (n3 < 5 || n3 > 9) {
-					System.out.println("잘못 입력하셨습니다. 5~9 사이의 숫자를 입력해주세요.");
+					System.out.println("잘못 입력하셨습니다. 5~9 사이의 숫자를 입력해주세요");
 				} else {
 					
 				// 입력받은 숫자만큼 배열을 생성하고
