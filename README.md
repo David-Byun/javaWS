@@ -1,6 +1,6 @@
 # javaWS
 
-# Team6 입니다!
+## Team6 입니다!
 
 이여진 https://github.com/helloyeojin/java</br>
 장은정 https://github.com/eejeong/java.git</br>
