@@ -34,7 +34,7 @@ public class Ws {
 				Random r = new Random();
 
 				for (int i = 0; i < arr.length; i++) {
-					arr[i] = r.nextInt(10);
+					arr[i] = r.nextInt(9) + 1;
 				}
 
 				// 배열 정보를 출력한다.
