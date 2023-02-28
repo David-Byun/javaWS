@@ -118,47 +118,50 @@ public class Ws {
 			} else if(cmd.equals("a3")) {
 		
 				// 5~9까지의 숫자를 입력받는다.
-				System.out.println("5~9 사이의 숫자를 하나 입력해주세요");
-				int n3 = Integer.parseInt(sc.next());
-				if (n3 < 5 || n3 > 9) {
-					System.out.println("잘못 입력하셨습니다. 처음으로 돌아갑니다.");
-				} else {
+				while(true) {
+					System.out.println("5~9 사이의 숫자를 하나 입력해주세요");
+					int n3 = Integer.parseInt(sc.next());
+					if (n3 < 5 || n3 > 9) {
+						System.out.println("잘못 입력하셨습니다. 처음으로 돌아갑니다.");
+					} else {
+						
+					// 입력받은 숫자만큼 배열을 생성하고
+						int arr[] = new int[n3];
 					
-				// 입력받은 숫자만큼 배열을 생성하고
-					int arr[] = new int[n3];
-				
-				// 1~9까지의 랜덤한 숫자를 배열에 넣는다.
-					Random r = new Random();
-					for(int i=0; i< arr.length; i++) {
-						arr[i] = r.nextInt(9)+1;
-					}
-				
-				// 배열 정보를 출력한다.
-					System.out.println(Arrays.toString(arr));
-				
-				// 배열의 합과 평균을 출력한다.
-					int sum3 = 0;
-					double avg3 = 0.0;
-					for(int a:arr) {
-						sum3 += a;
-					}
-				
-					avg3 = sum3 / (arr.length * 1.0);
-					System.out.printf("<배열의 합과 평균> sum = %d, average = %4.2f \n", sum3, avg3);
-				
-				// 짝수 값만의 합과 평균을 출력한다.
-					int sum3E = 0;
-					double avg3E =0.0;
-					int cnt3 = 0;
-					for(int a:arr) {
-						if (a%2 == 0) {
-							sum3E += a;
-							cnt3++;
+					// 1~9까지의 랜덤한 숫자를 배열에 넣는다.
+						Random r = new Random();
+						for(int i=0; i< arr.length; i++) {
+							arr[i] = r.nextInt(9)+1;
 						}
-					}
 					
-					avg3E = sum3E / (cnt3 * 1.0);
-					System.out.printf("<배열의 짝수값들의 합> sum = %d, average = %4.2f \n\n", sum3E, avg3E);
+					// 배열 정보를 출력한다.
+						System.out.println(Arrays.toString(arr));
+					
+					// 배열의 합과 평균을 출력한다.
+						int sum3 = 0;
+						double avg3 = 0.0;
+						for(int a:arr) {
+							sum3 += a;
+						}
+					
+						avg3 = sum3 / (arr.length * 1.0);
+						System.out.printf("<배열의 합과 평균> sum = %d, average = %4.2f \n", sum3, avg3);
+					
+					// 짝수 값만의 합과 평균을 출력한다.
+						int sum3E = 0;
+						double avg3E =0.0;
+						int cnt3 = 0;
+						for(int a:arr) {
+							if (a%2 == 0) {
+								sum3E += a;
+								cnt3++;
+							}
+						}
+						
+						avg3E = sum3E / (cnt3 * 1.0);
+						System.out.printf("<배열의 짝수값들의 합> sum = %d, average = %4.2f \n\n", sum3E, avg3E);
+						break;
+					}
 				}
 			
 				
